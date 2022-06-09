@@ -10,6 +10,8 @@ const AddCard = () => {
           <h4 className="paragraph">Payment Information</h4>
           <p className="payment-paragraph">Choose your method of payment.</p>
         </div>
+
+        {/* Logos  */}
         <div className="logos">
           <VisaLogo />
           <DiscoverLogo />
@@ -35,7 +37,6 @@ const AddCard = () => {
                   placeholder="4324 5433 9382 1030"
                 />
               </div>
-
               <div>
                 <label htmlFor="securitycode">Security code</label>
                 <br />
