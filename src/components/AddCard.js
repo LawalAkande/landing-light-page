@@ -20,10 +20,10 @@ const AddCard = () => {
 
       {/* Payment Information */}
       <div className="row">
-        <div className="col-xs-12 col-md-6">
+        <div className="col-xs-12 col-md-12 col-lg-6">
           <img src={atm_card} alt="" className="atm_card" />
         </div>
-        <div className="col-xs-12 col-md-6">
+        <div className="col-xs-12 col-md-12 col-lg-6">
           <div className="row">
             <div className="col">
               <div>
